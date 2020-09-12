@@ -35,4 +35,4 @@ USE leetcode;
 SELECT class
 FROM courses
 GROUP BY class
-HAVING COUNT(DISTINCT student);
+HAVING COUNT(DISTINCT student)>5;

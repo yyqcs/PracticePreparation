@@ -2,6 +2,13 @@ package ds.hashtable;
 
 import org.junit.Test;
 
+
+import java.net.DatagramSocket;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
+import java.nio.channels.Selector;
+
+
 import static org.junit.Assert.*;
 
 public class StudentTest {
@@ -27,6 +34,11 @@ public class StudentTest {
         assertEquals(student1.hashCode(),student2.hashCode());//OK.
         assertTrue(student1.equals(student2));//OK
 
+    }
+    @Test
+    public void main(){
+        String str1="中文";
+ 
     }
 
 }

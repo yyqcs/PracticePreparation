@@ -24,4 +24,4 @@ USE leetcode;
 SELECT T.Id AS 'Id'
 FROM weather AS T INNER  JOIN  weather AS B
 ON DATEDIFF(T.RecordDate,B.RecordDate)=1
-WHERE T.Temperature>B.Temperature;
+WHERE 3
